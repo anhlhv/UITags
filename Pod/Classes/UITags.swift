@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import UICollectionViewLeftAlignedLayout
+import KTCenterFlowLayout
 
 @IBDesignable
 public class UITags: UIView, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
