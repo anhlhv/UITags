@@ -9,7 +9,7 @@
 import UIKit
 import KTCenterFlowLayout
 
-@IBDesignable
+// @IBDesignable
 public class UITags: UIView, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     
     @IBInspectable public var tagColor: UIColor?
