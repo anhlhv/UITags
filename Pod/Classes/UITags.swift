@@ -30,7 +30,7 @@ public class UITags: UIView, UICollectionViewDataSource, UICollectionViewDelegat
     
     public var collectionView: UICollectionView?
     
-    public var layout: UICollectionViewLayout = UICollectionViewFlowLayout() {
+    public var layout: UICollectionViewLayout = KTCenterFlowLayout() {
         didSet {
             collectionView?.removeFromSuperview()
             setUp()
